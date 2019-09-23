@@ -1,0 +1,57 @@
+// $schoolBoard: #588c7e;
+$schoolBoard: rgba(88, 140, 126, 0.9);
+;
+
+body {
+    font-family: 'Gayathri', sans-serif;
+    background: $schoolBoard;
+    color: white;
+    border: 10px solid brown;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.alphabet:hover {
+    color: red;
+}
+
+button {
+    outline: none;
+}
+
+.container {
+    padding: 3rem;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+main .container {
+    padding-top: 1px;
+}
+
+.inside {
+    padding: 3rem 0;
+    // border: 10px solid brown;
+    // border-radius: 25px;
+}
+
+.alphabet {
+    font-size: 4rem;
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    color: white;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.pressed {
+    font-weight: 700;
+    border: 3px solid white;
+}
