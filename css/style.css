@@ -19,6 +19,10 @@ button {
   outline: none;
 }
 
+::-moz-focus-inner {
+  border: 0;
+}
+
 .container {
   padding: 3rem;
   padding-bottom: 10px;
